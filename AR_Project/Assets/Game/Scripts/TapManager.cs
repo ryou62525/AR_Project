@@ -52,6 +52,21 @@ public class TapManager : MonoBehaviour
             // マルチタップ
         }
 
+        if (Input.GetMouseButtonDown(0))
+        {
+            Debug.Log("タップされました");
+            
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit = new RaycastHit();
+            if (Physics.Raycast(ray, out hit, _distance))
+            {
+                var obj = hit.collider.gameObject;
+                obj.GetComponent<Renderer>().material.color = new Color(Random.Range(0.0f, 1.0f),
+                                                                        Random.Range(0.0f, 1.0f),
+                                                                        Random.Range(0.0f, 1.0f));
+                Debug.Log(obj);
+            }
+        }
     }
 
     void SingleTapEvent()

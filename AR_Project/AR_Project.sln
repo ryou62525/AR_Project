@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio for Mac
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR_Project", "AR_Project.csproj", "{E20F0DC6-0020-B0E5-7099-A431AA1C3DEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR_Project.Editor", "AR_Project.Editor.csproj", "{CD389D84-E60B-75F4-6E7D-035B603935DC}"
