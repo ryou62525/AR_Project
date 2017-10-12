@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio for Mac
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR_Project", "AR_Project.csproj", "{E20F0DC6-0020-B0E5-7099-A431AA1C3DEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR_Project.Plugins", "AR_Project.Plugins.csproj", "{BB820236-85A4-1B4A-7B1F-FFAB7414EB14}"
