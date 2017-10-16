@@ -87,9 +87,17 @@
 <type fullname="UnityStandardAssets.Vehicles.Car.WheelEffects" preserve="all"/>
 </assembly>
 <assembly fullname="Assembly-CSharp">
+<<<<<<< HEAD
+<type fullname="ObjectBase" preserve="all"/>
 <type fullname="Rotation" preserve="all"/>
 <type fullname="sample" preserve="all"/>
 <type fullname="TapManager" preserve="all"/>
+<type fullname="TestObject" preserve="all"/>
+=======
+<type fullname="Rotation" preserve="all"/>
+<type fullname="sample" preserve="all"/>
+<type fullname="TapManager" preserve="all"/>
+>>>>>>> 561e45ab38a14febf629de48709d3c518d906538
 <type fullname="MenuSceneLoader" preserve="all"/>
 <type fullname="PauseMenu" preserve="all"/>
 <type fullname="SceneAndURLLoader" preserve="all"/>
@@ -130,9 +138,12 @@
 <type fullname="Vuforia.WireframeTrackableEventHandler" preserve="all"/>
 <type fullname="Vuforia.WordBehaviour" preserve="all"/>
 </assembly>
+<<<<<<< HEAD
+=======
 <assembly fullname="UnityEngine.Analytics">
 <type fullname="UnityEngine.Analytics.AnalyticsTracker" preserve="all"/>
 </assembly>
+>>>>>>> 561e45ab38a14febf629de48709d3c518d906538
 <assembly fullname="UnityEngine.UI">
 <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all"/>
 <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all"/>
@@ -177,6 +188,12 @@
 <type fullname="UnityEngine.UI.PositionAsUV1" preserve="all"/>
 <type fullname="UnityEngine.UI.Shadow" preserve="all"/>
 </assembly>
+<<<<<<< HEAD
+<assembly fullname="UnityEngine.Analytics">
+<type fullname="UnityEngine.Analytics.AnalyticsTracker" preserve="all"/>
+</assembly>
+=======
+>>>>>>> 561e45ab38a14febf629de48709d3c518d906538
 <assembly fullname="Vuforia.UnityExtensions">
 <type fullname="Vuforia.DigitalEyewearARController" preserve="all"/>
 <type fullname="Vuforia.DeviceTrackerARController" preserve="all"/>

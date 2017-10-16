@@ -2,16 +2,27 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
+<<<<<<< HEAD
+  Total Type Removals = 2463
+    Nested = 174
+    Interfaces = 162
+    Abstract Classes = 178
+=======
   Total Type Removals = 2474
     Nested = 179
     Interfaces = 165
     Abstract Classes = 180
+>>>>>>> 561e45ab38a14febf629de48709d3c518d906538
     Generic Types = 82
     Generic Interfaces = 6
     Generic Abstract Classes = 3
     Attributes = 175
   Total Field Removals = 802
+<<<<<<< HEAD
+  Total Method Removals = 11361
+=======
   Total Method Removals = 11401
+>>>>>>> 561e45ab38a14febf629de48709d3c518d906538
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -9411,7 +9422,11 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 46
   Total Field Removals = 58
+<<<<<<< HEAD
+  Total Method Removals = 5119
+=======
   Total Method Removals = 5123
+>>>>>>> 561e45ab38a14febf629de48709d3c518d906538
   References Removed = 0
 ---------------------------------------------------
     <PrivateImplementationDetails>
@@ -10650,7 +10665,10 @@ Summary:
         set_interactable(System.Boolean)
     UnityEngine.CanvasRenderer
         .ctor()
+<<<<<<< HEAD
+=======
         AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>)
+>>>>>>> 561e45ab38a14febf629de48709d3c518d906538
         AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>)
         CreateUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<System.Int32>)
         get_hasPopInstruction()
@@ -14121,8 +14139,11 @@ Summary:
         set_anchoredPosition3D(UnityEngine.Vector3)
         set_drivenByObject(UnityEngine.Object)
         set_drivenProperties(UnityEngine.DrivenTransformProperties)
+<<<<<<< HEAD
+=======
         set_offsetMax(UnityEngine.Vector2)
         set_offsetMin(UnityEngine.Vector2)
+>>>>>>> 561e45ab38a14febf629de48709d3c518d906538
     UnityEngine.RectTransformUtility
         .ctor()
         CalculateRelativeRectTransformBounds(UnityEngine.Transform)
@@ -15436,7 +15457,10 @@ Summary:
         get_left()
         get_negativeInfinity()
         get_positiveInfinity()
+<<<<<<< HEAD
+=======
         get_right()
+>>>>>>> 561e45ab38a14febf629de48709d3c518d906538
         Lerp(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
         LerpUnclamped(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
         Max(UnityEngine.Vector2,UnityEngine.Vector2)
@@ -15631,6 +15655,8 @@ Summary:
         .ctor()
     UnityEngineInternal.WebRequestUtils
         MakeInitialUrl(System.String,System.String)
+<<<<<<< HEAD
+=======
 ---------------------------------------------------
 Assembly: UnityEngine.UI
 ---------------------------------------------------
@@ -15710,3 +15736,4 @@ Summary:
     UnityEngine.UI.VertexHelper
         AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<System.Int32>)
         get_currentIndexCount()
+>>>>>>> 561e45ab38a14febf629de48709d3c518d906538
