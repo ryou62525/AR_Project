@@ -64,9 +64,9 @@ public class TapManager : MonoBehaviour
             var pos = _target.transform.position;
 
             _text[0].text = "Pos\n" +
-                            "x:" + Mathf.Round(_target.transform.position.x).ToString() + 
-                            "y:" + Mathf.Round(_target.transform.position.y).ToString() + 
-                            "z:" + Mathf.Round(_target.transform.position.z).ToString();
+                            "x:" + Mathf.Round(_target.transform.localPosition.x).ToString() + 
+                            "y:" + Mathf.Round(_target.transform.localPosition.y).ToString() + 
+                            "z:" + Mathf.Round(_target.transform.localPosition.z).ToString();
         }
     }
 
@@ -81,23 +81,23 @@ public class TapManager : MonoBehaviour
         if (Physics.Raycast(ray, out hit, _distance))
         {
             _target = hit.collider.gameObject;
-
-
+         
             switch (touch.phase)
             {
                 case TouchPhase.Began:
+                    
                     _target.GetComponent<ObjectBase>().TouchBegan(touch, _Screen);
                     Debug.Log(_target.GetType());
             
                     break;
                 case TouchPhase.Moved:
                     Debug.Log("Moved");
-                    _target.GetComponent<ObjectBase>().TouchMove();
+                    _target.GetComponent<ObjectBase>().TouchMove(touch);
 
                     break;
                 case TouchPhase.Ended:
 
-                    _target.GetComponent<ObjectBase>().TouchEnded();
+                    _target.GetComponent<ObjectBase>().TouchEnded(touch);
 
                     break;
             }

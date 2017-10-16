@@ -30,22 +30,23 @@ public class TestObject : ObjectBase
 	public override void MouseButtonDown()
 	{
 		base.MouseButtonDown();
-		Debug.Log(this.name);
-		Debug.Log("マウスクリックしました");
-
 	}
 
-	public override void TouchMove()
+	public override void TouchMove(Touch touch)
 	{
-        base.TouchMove();
-		_velocity.x = (_touch.position.x - _startLocation.x) / _ScreenSize.x;
-		_velocity.y = (_touch.position.y - _startLocation.y) / _ScreenSize.y;
+        base.TouchMove(touch);
+
+		_velocity.x = (touch.position.x - _startLocation.x) / _ScreenSize.x;
+		_velocity.y = (touch.position.y - _startLocation.y) / _ScreenSize.y;
 		this.transform.rotation = _startRotation;
 		this.transform.Rotate(new Vector3(0, (_rot * _rate) * _velocity.x, 0), Space.World);
+        Debug.Log(touch.position);
+        Debug.Log("Moved");
     }
 
-	public override void TouchEnded()
+	public override void TouchEnded(Touch touch)
 	{
-        base.TouchEnded();
+        base.TouchEnded(touch);
+        Debug.Log("TouchEnded");
 	} 
 }

@@ -9,12 +9,12 @@ public class ObjectBase : MonoBehaviour
         Debug.Log("Override TouchBegan");
     }
 
-	public virtual void TouchMove()
+	public virtual void TouchMove(Touch touch)
 	{
         Debug.Log("Override TouchMove");
 	}
 
-    public virtual void TouchEnded()
+    public virtual void TouchEnded(Touch touch)
     {
 		Debug.Log("Override TouchEnded");
 	}
